@@ -1,0 +1,37 @@
+<h1>Névjegy módosítása</h1>
+<form class="form-horizontal col-lg-8 col-lg-offset-2"
+      method="post" action="/nevjegy/{{nevjegy.id}}">
+    <div class="form-group">
+      <label for="nev" class="col-lg-2 control-label">Név: </label>
+      <div class="col-lg-10">
+        <input type="text"
+               class="form-control" 
+               name="nev" id="nev"
+               value="{{nevjegy.nev}}">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="foglalkozas" class="col-lg-2 control-label">Foglalkozás: </label>
+      <div class="col-lg-10">
+        <input type="text"
+               class="form-control" 
+               name="foglalkozas" id="foglalkozas"
+               value="{{nevjegy.foglalkozas}}">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="telefonszam" class="col-lg-2 control-label">Telefonszám: </label>
+      <div class="col-lg-10">
+        <input type="text"
+               class="form-control" 
+               name="telefonszam" id="telefonszam"
+               value="{{nevjegy.telefonszam}}">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default pull-left">Mégse</button>
+        <button type="submit" class="btn btn-success pull-right">Módosítás</button>
+      </div>
+    </div>
+</form>

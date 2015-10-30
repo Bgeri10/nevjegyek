@@ -1,0 +1,180 @@
+{
+  "data": {
+    "error": [],
+    "nevjegy": [
+      {
+        "nev": "Kiss János",
+        "foglalkozas": "Rendőr",
+        "telefonszam": "+36-20-123-4567",
+        "datum": "2015-10-29T23:09:32.756Z",
+        "kesz": false,
+        "createdAt": "2015-10-29T23:09:32.757Z",
+        "updatedAt": "2015-10-29T23:09:32.757Z",
+        "id": 19
+      },
+      {
+        "nev": "Nagy Julianna",
+        "foglalkozas": "Almaszedő",
+        "telefonszam": "06-99-991-1198",
+        "datum": "2015-10-29T23:13:47.180Z",
+        "kesz": false,
+        "createdAt": "2015-10-29T23:13:47.182Z",
+        "updatedAt": "2015-10-29T23:13:47.182Z",
+        "id": 21
+      }
+    ],
+    "user": [
+      {
+        "surname": "asdf",
+        "forename": "asdf",
+        "neptun": "asdf",
+        "password": "$2a$10$zVIyNGeHTAXWJmsg18GFd.vaytHCJiDIfe1j8RycQYYLX1aUvzKdG",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-29T16:56:34.449Z",
+        "updatedAt": "2015-10-29T16:56:34.449Z",
+        "id": 1
+      },
+      {
+        "surname": "Kiss",
+        "forename": "Gergő",
+        "neptun": "g1mkcu",
+        "password": "$2a$10$l/FFClZ.0rDteH/h63Fa..t35eKpop2fOgfJiL1GBvtvUZQ54xzpe",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-29T22:54:52.316Z",
+        "updatedAt": "2015-10-29T22:54:52.316Z",
+        "id": 2
+      },
+      {
+        "surname": "a",
+        "forename": "a",
+        "neptun": "a",
+        "password": "$2a$10$HGzIfuFAGoo7vjb7hqkUSOtdZ9NwC9eFRYQcK3AGprKV9rf2yHdz6",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-30T11:19:58.156Z",
+        "updatedAt": "2015-10-30T11:19:58.156Z",
+        "id": 3
+      }
+    ]
+  },
+  "schema": {
+    "error": {
+      "datum": {
+        "type": "date"
+      },
+      "terem": {
+        "type": "string"
+      },
+      "leiras": {
+        "type": "string"
+      },
+      "kesz": {
+        "type": "boolean",
+        "defaultsTo": false
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "nevjegy": {
+      "datum": {
+        "type": "date"
+      },
+      "nev": {
+        "type": "string"
+      },
+      "foglalkozas": {
+        "type": "string"
+      },
+      "telefonszam": {
+        "type": "string"
+      },
+      "kesz": {
+        "type": "boolean",
+        "defaultsTo": false
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "neptun": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "avatar": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "riporter",
+          "operator"
+        ],
+        "defaultsTo": "riporter"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "error": {},
+    "user": {
+      "id": 3
+    },
+    "nevjegy": {
+      "id": 25
+    }
+  }
+}
