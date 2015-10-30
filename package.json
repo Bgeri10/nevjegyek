@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  "start": "nodemon index"
+    "test": "node_modules/mocha/bin/mocha **/*.test.js",
+    "start": "nodemon index"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +19,7 @@
     "express-validator": "^2.18.0",
     "hbs": "^3.1.1",
     "mocha": "^2.3.3",
+    "nodemon": "^1.8.0",
     "passport": "^0.3.0",
     "passport-local": "^1.0.0",
     "sails-disk": "^0.10.8",
