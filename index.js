@@ -107,7 +107,7 @@ orm.loadCollection(require('./models/nevjegy'));
 orm.loadCollection(require('./models/user'));
 
 orm.initialize(ormConfig, function (err, models) {
-    if (err) throw err;
+    if(err) throw err;
     var port = process.env.PORT || 1337;
     
     app.models = models.collections;

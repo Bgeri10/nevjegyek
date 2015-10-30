@@ -1,6 +1,7 @@
 var Waterline = require('waterline');
 
 module.exports = Waterline.Collection.extend({
+    migrate: 'safe',
     identity: 'nevjegy',
     connection: 'disk',
     attributes: {
