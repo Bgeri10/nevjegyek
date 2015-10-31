@@ -3,8 +3,8 @@ var table = '<table class="table table-striped table-hover">' +
             '<tr>' +
                 '<th>Felvétel ideje</th>' +
                 '<th>Név</th>' +
-                '<th>Telefonszám</th>' +
                 '<th>Foglalkozás</th>' +
+                '<th>Telefonszám</th>' +
             '</tr>'    +
         '</thead>' +
         '<tbody>' +
