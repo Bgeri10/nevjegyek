@@ -21,10 +21,12 @@
 
 ### Nem funkcionális követelmények
 •	perzisztálás fájlba történjen
+
 •	közzététel Herokun
 
 ### Szerepkörök
 •	Vendég: a főoldal tartalmához fér hozzá, rögzíteni nem tud.
+
 •	Felhasználó: Egy vendég regisztrálás után felhasználóvá válik, így bejelentkezés után listáztatni tudja a névjegyeit, majd ezeket módosítani, törölni, esetleg újat létrehozni.
 
 ![Használatieset-modell](docs/images/hasznalatesetidiagramm.png)
@@ -37,13 +39,19 @@
 Oldaltérkép
   Publikus:
   •	Főoldal
+  
   •	Bejelentkezés
   Felhasználó:
   •	Főoldal
+  
   •	Bejelentkezés/Kijelentkezés
+  
   •	Névjegylista
+  
     +	új névjegy
+    
     +	névjegy módosítása
+    
     +	névjegy törlése
 
 Végpontok
