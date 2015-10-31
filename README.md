@@ -29,8 +29,10 @@
 
 •	Felhasználó: Egy vendég regisztrálás után felhasználóvá válik, így bejelentkezés után listáztatni tudja a névjegyeit, majd ezeket módosítani, törölni, esetleg újat létrehozni.
 
+### Használatieset-modell
 ![Használatieset-modell](docs/images/hasznalatesetidiagramm.png)
 
+### Új névjegy felvétele
 ![Új névjegy felvétele](docs/images/nevjegyhozzaadasa.png)
 
 ## Tervezés
