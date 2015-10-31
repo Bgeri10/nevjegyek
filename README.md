@@ -4,7 +4,9 @@
 
 ### Funkcionális elvárások
 **A programnak tartalmaznia kell:**
+
 •	legalább két modellt, egy-sok kapcsolatban
+
 •	legalább 1 űrlapot
 •	legalább 1 listázó oldalt
 •	legyen lehetőség új felvételére
