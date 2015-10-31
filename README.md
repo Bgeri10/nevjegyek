@@ -8,10 +8,15 @@
 •	legalább két modellt, egy-sok kapcsolatban
 
 •	legalább 1 űrlapot
+
 •	legalább 1 listázó oldalt
+
 •	legyen lehetőség új felvételére
+
 •	legyen lehetőség meglévő szerkesztésére
+
 •	legyen lehetőség meglévő törlésére
+
 •	legyenek benne csak hitelesítés után elérhető funkciók
 
 ### Nem funkcionális követelmények
